@@ -10,8 +10,8 @@ This repository contains a Single Page Application for a travel booking app call
 ## Project Description
 The project includes a single page application in which an user can browse for, select, and pay for a travel package of their choosing. 
 ## Technologies Used
-1. HyperText Markup Language
-2. Cascading Style Sheets
+1. HyperText Markup Language (HTML)
+2. Cascading Style Sheets (CSS)
 3. JavaScript
 ## Functionality of the Code
 The program's functionality is explained in detail as shown in the contents below
