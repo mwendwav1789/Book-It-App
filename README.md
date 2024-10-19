@@ -30,3 +30,23 @@ The program's functionality is explained in detail as shown in the contents belo
 5.	Payment Simulation
 -	Payment Form: A basic payment form where users can enter mock credit card details.
 -	Confirmation Notification: Displays a success message after booking and stores details in local storage.
+## Installation And Setup
+
+To setup this project locally(on your device)
+
+1. Clone the repository using the following steps
+    ```\bashrc.
+     git clone git@github.com:your-repo-name/code-challenges.git (SSH)
+     ```
+2.  Navigate to the project directory using
+   ```bash
+      cd/your-repository-name
+   ```
+3. Open the files in your text editor.
+
+## Usage (How someone will be able to run the code)
+1. Open index.html in your browser.
+2. Feel free to interact with the website as to your choosing.
+
+## License
+This project is open-source and available under the MIT license
