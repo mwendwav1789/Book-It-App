@@ -49,4 +49,4 @@ To setup this project locally(on your device)
 2. Feel free to interact with the website as to your choosing.
 
 ## License
-This project is open-source and available under the MIT license
+This project is open-source and available under the MIT license.
