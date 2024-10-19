@@ -1,1 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book It Travel Booking</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js"></script>
+    <div class="main-container">
+      <header>
+        <h1>Welcome to your Dream Adventure!</h1>
+        <nav>
+          <a href="#home">Home</a>
+          <a href="#about">About the Company</a>
+          <div class="dropdown">
+            <a href="#travel-options">Travel Options</a>
+            <div class="dropdown-content">
+              <a href="#">Beach Getaway</a>
+              <a href="#">Mountain Hiking</a>
+              <a href="#">City Exploration</a>
+            </div>
+          </div>
+        </nav>
+      </header>
 
+      <div id="home" class="content">
+        <h2>Welcome to Book It Travel Co.</h2>
+        <p>Your gateway to unforgettable travel experiences!</p>
+      </div>
+
+      <div id="about" class="content">
+        <h2>About Us</h2>
+        <p>
+          Book It Travel Co. offers unique travel experiences around the city.
+          We specialize in curated adventures that combine exploration, culture,
+          and relaxation. Choose from our range of travel options and book your
+          adventure today!
+        </p>
+      </div>
+
+      <div id="travel-options" class="content">
+        <h2>Travel Booking Form</h2>
+        <form id="bookingForm">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="package">Select Package:</label>
+          <select id="package" name="package" required>
+            <option value="">--Select Package--</option>
+            <option value="Beach Getaway">Beach Getaway - Ksh. 5000</option>
+            <option value="Mountain Hiking">Mountain Hiking -Ksh. 7500</option>
+            <option value="City Exploration">
+              City Exploration - Ksh. 6000
+            </option>
+          </select>
+
+          <label for="price">Price ($):</label>
+          <input type="text" id="price" name="price" readonly />
+
+          <button type="button">Add Booking</button>
+          <button type="button">New Booking</button>
+          <button type="button">Delete Last Booking</button>
+        </form>
+
+        <button id="viewBookingSummary">View Booking Summary</button>
+
+        <div class="booking-summary" id="bookingSummary">
+          <h3>Booking Summary</h3>
+          <ul id="summaryList"></ul>
+        </div>
+      </div>
+
+      <div id="payment" class="content">
+        <h2>Payment Form</h2>
+        <form id="paymentForm">
+          <label for="cardNumber">Card Number:</label>
+          <input type="text" id="cardNumber" name="cardNumber" required />
+
+          <label for="expiry">Expiry Date:</label>
+          <input
+            type="text"
+            id="expiry"
+            name="expiry"
+            placeholder="MM/YY"
+            required
+          />
+
+          <label for="cvv">CVV:</label>
+          <input type="text" id="cvv" name="cvv" required />
+
+          <button type="submit">Submit Payment</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
