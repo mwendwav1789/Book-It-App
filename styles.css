@@ -1,1 +1,132 @@
+/* Center and justify content within the page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Main content container */
+.main-container {
+  max-width: 900px;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  width: 100%;
+  background-color: #444;
+  padding: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+/* Navbar */
+header nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Content Boxes */
+.content {
+  padding: 20px;
+  margin: 20px auto;
+  background-color: #555;
+  color: #fff;
+  border-radius: 8px;
+  text-align: justify; /* Full justification */
+  max-width: 800px;
+}
+
+.content h2 {
+  color: #ffcc00;
+  font-size: 28px;
+  text-align: center; /* Center headings */
+}
+
+.content p {
+  color: #ddd;
+  font-size: 16px;
+}
+
+/* Form elements */
+form label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #ffcc00;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+form button,
+#viewBookingSummary,
+.search-bar button {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #ffcc00;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 5px;
+}
+
+form button:hover,
+#viewBookingSummary:hover,
+.search-bar button:hover {
+  background-color: #e6b800;
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #555;
+  border-radius: 8px;
+  max-width: 800px;
+}
+
+/* Booking Summary */
+#bookingSummary {
+  display: none;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
 
