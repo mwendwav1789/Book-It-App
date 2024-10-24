@@ -1,39 +1,66 @@
 {
-  "bookings": [
+  "packages": [
     {
       "id": 1,
-      "userId": 1,
-      "travelId": 2,
-      "checkInDate": "2024-11-01",
-      "checkOutDate": "2024-11-10"
+      "name": "Beach Getaway",
+      "description": "Relax at the beach with crystal-clear waters and white sand.",
+      "price": 5000
     },
     {
       "id": 2,
-      "userId": 2,
-      "travelId": 4,
-      "checkInDate": "2024-12-15",
-      "checkOutDate": "2024-12-20"
+      "name": "Mountain Hiking",
+      "description": "Explore scenic mountain trails and witness breathtaking views.",
+      "price": 7500
     },
     {
       "id": 3,
-      "userId": 3,
-      "travelId": 1,
-      "checkInDate": "2024-09-05",
-      "checkOutDate": "2024-09-12"
+      "name": "City Exploration",
+      "description": "Discover vibrant city life with historical landmarks and cultural experiences.",
+      "price": 6000
+    }
+  ],
+  "bookings": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "travelPackage": "Beach Getaway",
+      "price": 5000
     },
     {
-      "id": 4,
-      "userId": 4,
-      "travelId": 3,
-      "checkInDate": "2024-10-01",
-      "checkOutDate": "2024-10-07"
+      "id": 2,
+      "name": "Jane Smith",
+      "travelPackage": "Mountain Hiking",
+      "price": 7500
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "john_doe",
+      "email": "john@example.com",
+      "password": "hashed_password_here"
     },
     {
-      "id": 5,
-      "userId": 5,
-      "travelId": 5,
-      "checkInDate": "2024-11-20",
-      "checkOutDate": "2024-11-25"
+      "id": 2,
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "password": "hashed_password_here"
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "bookingId": 1,
+      "cardNumber": "**** **** **** 1234",
+      "amount": 5000,
+      "status": "Completed"
+    },
+    {
+      "id": 2,
+      "bookingId": 2,
+      "cardNumber": "**** **** **** 5678",
+      "amount": 7500,
+      "status": "Pending"
     }
   ]
 }
